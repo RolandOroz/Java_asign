@@ -5,15 +5,20 @@ public class DisplayShape {
     public static void main(String[] args) {
         BaseShape baseShape;
 
-        Square sq1 = new Square();
+        Square square = new Square(10);
 
-        baseShape = sq1;
+        System.out.println(square.getClass());
+        System.out.println(square.getArea());
+        System.out.println(square.getWidth());
+        System.out.println(square.getHeight());
 
-        baseShape.setHeight(5);
-        baseShape.setWidth(10);
+        Rectangle rectangle = new Rectangle(10,5);
 
-        System.out.println(sq1.getArea());
-        System.out.println(sq1.getWidth());
-        System.out.println(sq1.getHeight());
+        System.out.println(rectangle.getClass());
+        System.out.println(rectangle.getArea());
+        System.out.println(rectangle.getWidth());
+        System.out.println(rectangle.getHeight());
+
+
     }
 }

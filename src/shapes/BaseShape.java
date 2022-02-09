@@ -1,6 +1,6 @@
 package shapes;
 
-public class BaseShape {
+abstract class BaseShape {
     private double height;
     private double width;
 
