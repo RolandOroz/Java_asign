@@ -10,6 +10,7 @@ public class DisplayShape {
         System.out.println(square.getArea());
         System.out.println(square.getWidth());
         System.out.println(square.getHeight());
+        System.out.println(square.getPerimeter());
 
         Rectangle rectangle = new Rectangle(10,5);
 
@@ -17,6 +18,8 @@ public class DisplayShape {
         System.out.println(rectangle.getArea());
         System.out.println(rectangle.getWidth());
         System.out.println(rectangle.getHeight());
+        System.out.println(rectangle.getPerimeter());
+        System.out.println(rectangle.isEqualShape());
 
 
     }

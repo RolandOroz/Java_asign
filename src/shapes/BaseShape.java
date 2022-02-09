@@ -1,27 +1,15 @@
 package shapes;
 
-abstract class BaseShape {
-    private double height;
-    private double width;
+public abstract class BaseShape {
+    protected double width;
+    protected double height;
 
-    public double getHeight() {
-        return height;
-    }
 
-    public void setHeight(double height) {
-        this.height = height;
-    }
-
-    public double getWidth() {
-        return width;
-    }
-
-    public void setWidth(double width) {
-        this.width = width;
-    }
-
-    public double getArea() {
-        return this.getHeight() * this.getWidth();
-    }
-
+    public abstract double getHeight();
+    public abstract double setHeight();
+    public abstract double getWidth();
+    public abstract double setWidth();
+    public abstract double getArea();
+    public abstract double getPerimeter();
+    public abstract boolean isEqualShape();
 }
