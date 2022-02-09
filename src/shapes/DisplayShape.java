@@ -3,7 +3,6 @@ package shapes;
 public class DisplayShape {
 
     public static void main(String[] args) {
-        BaseShape baseShape;
 
         Square square = new Square(10);
 
