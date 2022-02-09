@@ -24,4 +24,8 @@ public class BaseShape {
         return this.getHeight() * this.getWidth();
     }
 
+    public double getCircumference() {
+        return 2 * (this.getWidth() + this.getHeight());
+    }
+
 }
